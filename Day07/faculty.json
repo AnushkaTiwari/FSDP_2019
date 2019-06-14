@@ -1,0 +1,35 @@
+# Code Challenge : Student and Faculty JSON
+
+
+import json
+
+faculty_json = """
+[
+{
+	"FirstName": "John",
+	"LastName": "Smith",
+	"Photo": " www.abc.com",
+	"Department": "Cs",
+	"Research Areas": ["Machine Learning", "Sql", "PHP"],
+	"Contact Details": {
+		"phone_no": [28392922, 73292002, 228292],
+		"email": ["Johnsmith@gamil.com", "John123@gmail.com"]
+	}
+
+}
+{
+	"FirstName": "Mary",
+	"LastName": "Isa",
+	"Photo": " www.Mary.com",
+	"Department": "Ec",
+	"Research Areas": ["IOT", "Embedde"],
+	"Contact Details": {
+		"phone_no": [3792084, 728392028, 2029383],
+		"email": ["Maryisa@gamil.com", "Mary123@gmail.com"]
+	}
+
+}
+
+]
+"""
+
